@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./assets/css/login.css"/>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <title>Música para todos - Spotify</title>
+    <link rel="icon" href="./assets/imagens/favicon.png"/>
+</head>
+<body>
+    
+    <div class="main-logo">
+        <a href="index.html" class="">
+            <img href="index.html" src="assets/imagens/spotify.svg" width="142">
+        </a>
+    </div>
+
+
+ <div class="main"></div>
+   
+ <form onsubmit="refresh(); return false">
+  
+    <a href="index.html" class="navbar-brand">
+        <img src="assets/imagens/spotify.svg" width="142"/>
+    </a>
+    
+   
+   <div class="sign-box">
+     <p>Entrar</p>
+     <p>Cadastro</p>
+   </div>
+   
+     <span id="msg"></span>
+   
+   <input type="name" placeholder="Username" class="inp-Box name"/>
+   
+   <br>
+   
+  <input type="password" placeholder="Password" class="inp-Box psd"/>
+   
+   <br>
+   
+   <div class="check">
+     <input type="checkbox" id="check">
+     <label for="check" id="checkMsg">stay signed in</label>
+   </div>
+   
+   <input type="submit" value="sign in" class="inp-Box submit">
+   
+   <p class="forgot-Psd">forgot password?</p>
+ </form>
+ 
+ 
+ <p class="note">Please log in to listen to your favorite song...</p>
+   
+ 
+</body>
+</html>
